@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html{
+  /* scroll-snap-type: y mandatory; */
+}
+
+section {
+  /* scroll-snap-align: start; */
+}
+
+button {
+  transition: ease-in 0.5s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.shadow {
+  box-shadow: 2px 2px 3px #B624A9;
+}
+
